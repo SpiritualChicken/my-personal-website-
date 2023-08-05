@@ -29,8 +29,8 @@ nav {
     margin: 4vw;
   }
 #charlie-photo {
-    width: 40vw;
-    height: 40vw;
+    width: 30vw;
+    height: 30vw;
     border-radius: 50%;
       border-top-left-radius: 50%;
       border-top-right-radius: 50%;
@@ -76,3 +76,46 @@ nav {
     margin: 10vw;
     margin-bottom: 10vw;
   }
+
+  #featured-projects {
+    display: flex;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+figure.project-pic { 
+  width: 500px;
+}
+  .project-pic {
+    max-width: 500px;
+    margin: 0;
+    
+}
+
+  .project-pic a {
+    display: block
+  }
+  .project-pic img {
+    width: 100%;
+    max-width: 100%;
+    vertical-align: bottom;
+  }
+
+.project-caption {
+  width: 125px;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  text-align: center;
+  margin-left: 30px
+
+}
+
+.project-name {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.project-name p {
+  font-size: .85rem;
+  line-height: 1.3
+}
