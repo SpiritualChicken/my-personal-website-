@@ -1,6 +1,7 @@
 html {
     font-family:sans-serif;
     font-size: 13px;
+    background-color: #edede9;
 }
 
 nav {
@@ -27,7 +28,7 @@ body {
 
 #photo { 
     padding: 4px;
-    background-color: white;
+    background-color: #edede9;
     text-align: center;
     margin: 4vw;
   }
