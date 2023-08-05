@@ -10,7 +10,10 @@ nav {
     
 
 }
-
+body {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
 .navbar-item {
     color: black;   
     display: block;
@@ -56,6 +59,8 @@ nav {
     justify-content: center;
     -webkit-box-pack: justify;
     justify-content: space-between;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
   }
   .section-title {
     font-weight: 700;
@@ -64,12 +69,13 @@ nav {
 
   .skills-label {
     font-weight: 700;
+    font-size: 1.5rem; 
     color: black;
     text-transform: uppercase;
   }
   .skills-item {
     margin: 3px 0;
-    font-size: .9rem;
+    font-size: 1.1rem;
   }
 
   figure {
